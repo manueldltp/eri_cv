@@ -1,0 +1,155 @@
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --colorBase: #230886;
+}
+
+body{
+    background: linear-gradient(45deg, #d8f2fa, rgb(72, 164, 250));
+    font-family: var(--fontBase);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-size: 20px;
+    padding-left: 8vw;
+    color: var(--colorBase);
+    width: 20%;
+    height: 10vh;
+    text-align: center;
+    height: fit-content;
+    font-weight: bold;
+}
+
+#about-me{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#hola{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+#nombre{
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+#intro{
+    width: 80%;
+    padding-top: 10vh;
+    text-align: left;
+    color: var(--colorBase);
+    padding-left: 10vw;
+}
+
+#intro p{
+    font-size: 20px;
+}
+
+#intro img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+nav{
+    font-size: 13px;
+    width: 30%;
+    padding-top: 6vh;
+    padding-right: 4vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+    height: fit-content;
+    font-weight: bold;
+}
+
+nav a{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 70px;
+    font-weight: bolder;
+}
+
+#links{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main{
+    padding-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#foto{
+    right: 15px;
+    width: 30vw;
+    height: 30vh;
+    align-items: center;
+}
+
+#foto img{
+    padding-top: 5vh;
+    width: 80%;
+    height: auto;
+}
+
+@media screen and (max-width : 600px){
+    #main{
+        flex-direction: column;
+    }
+    nav{
+        display: none;
+    }
+    #foto{
+        width: 100vw;
+    }
+    #foto img{
+        padding-top: 0;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #intro{
+        display: none;
+    }
+}
+.participe{
+    margin: 100px 5px 5px 300px;
+    color: #230886;
+}
+#i1, #i2, #i3, #i4{
+    background: #FFFFFF;
+    border: 2px solid #310A90;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+button{
+    background: #310A90;
+    border: 2px solid #310A90;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 7px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    }
+#arrow{
+    margin-left: 400px;
+}
+#aqui{
+    margin-left: 250px;
+    font-weight: bolder;
+}
