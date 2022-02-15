@@ -4,14 +4,13 @@
 }
 
 body{
-    background: linear-gradient(45deg, #d8f2fa, rgb(72, 164, 250));
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     font-family: var(--fontBase);
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
 
-header{
+.header{
     font-size: 20px;
     padding-left: 8vw;
     color: var(--colorBase);
@@ -19,7 +18,7 @@ header{
     height: 10vh;
     text-align: center;
     height: fit-content;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #about-me{
@@ -53,8 +52,8 @@ header{
 }
 
 #intro img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: white;
     border-radius: 3px;
     border-style: solid;
@@ -64,11 +63,10 @@ header{
 nav{
     font-size: 13px;
     width: 30%;
-    padding-top: 6vh;
-    padding-right: 4vw;
+    padding-top: 7rm;
+    padding-left: 4vw;
     display: flex;
     justify-content: center;
-    padding-top: 3vh;
     height: fit-content;
     font-weight: bold;
 }
@@ -152,4 +150,207 @@ button{
 #aqui{
     margin-left: 250px;
     font-weight: bolder;
+}
+.proyectos{
+    padding-left: 15vw;
+    padding-top: 7vw;
+    display: flex;
+    flex-direction: row;
+}
+#macdiv{
+    margin-left: 10%;
+}
+#miproyecto{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+    box-shadow: -4px 4px 0px #FFFFFF;
+}
+#accede{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #310A90;
+}
+#verproyecto{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+}
+#vercodigo{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color:#310A90;
+}
+.comentario1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    position: static;
+    width: 1000px;
+    height: 250px;
+    left: 117px;
+    top: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-left: 10vw;
+    margin-top: 7vw;
+}
+#JC{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+    text-align: center;
+    color: #310A90;
+}
+#eri{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: #310A90;
+    opacity: 0.5;
+}
+
+.marvol{
+    padding-left: 15vw;
+    padding-top: 7vw;
+    display: flex;
+    flex-direction: row;
+}
+#ipad-png{
+    margin-left: 0%;
+}
+#marvol-buton{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+    box-shadow: -4px 4px 0px #FFFFFF;
+}
+#sitio{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #310A90;
+}
+#marvol-text{
+    margin-top: 10rm;
+    margin-left: 5rm
+}
+.comentario2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    position: static;
+    width: 1000px;
+    height: 250px;
+    left: 117px;
+    top: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-left: 10vw;
+    margin-top: 7vw;
+}
+#JC2{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+    text-align: center;
+    color: #310A90;
+}
+.proyectos3{
+    padding-left: 15vw;
+    padding-top: 7vw;
+    display: flex;
+    flex-direction: row;
+}
+#cel-png{
+    margin-left: 20%;
+}
+#miproyecto3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+    box-shadow: -4px 4px 0px #FFFFFF;
+}
+#peliculas{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #310A90;
+}
+.comentario3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    position: static;
+    width: 1000px;
+    height: 250px;
+    left: 117px;
+    top: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-left: 10vw;
+    margin-top: 7vw;
+}
+#hablemos-buton{
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    width: 543px;
+    height: 64px;
+    margin-left: 30%;
+    margin-top: 5%;
+    background: #310A90;
+    box-shadow: -4px 4px 0px #FFFFFF;
+    font-size: larger;
+}
+#interesado{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
 }
